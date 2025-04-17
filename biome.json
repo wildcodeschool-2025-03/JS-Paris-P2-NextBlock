@@ -1,0 +1,15 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
+  "files": {
+    "ignore": ["*.js", "**/dist/*", "**/*.template.*", "*.config.*", "**/tsconfig.json", "coverage"]
+  },
+  "formatter": {
+			"ignore": ["*.json", "*.js", "*.*.js", "*.html"],
+			"indentStyle": "tab"
+		},
+  "organizeImports": { "enabled": true },
+  "linter": {
+    "enabled": true,
+    "rules": { "recommended": true, "suspicious": { "noConsoleLog": "error" } }
+  }
+}
