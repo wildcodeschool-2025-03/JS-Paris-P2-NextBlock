@@ -1,11 +1,12 @@
 import "./App.css";
+import Nav from "./Components/Nav";
+import { Outlet, Link } from "react-router"
 
 function App() {
-	const name = "toto";
-	const text = "Welcome";
+
 	return (
 		<>
-			{text} {name}
+			< Outlet />
 		</>
 	);
 }
