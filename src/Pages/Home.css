@@ -1,3 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bodyHome {
+	background-image: url("../img/imgFondHome.png");
+	background-position: center;
+	background-size: cover;
+}
+
 .grand-titre {
 	font-family: var(--font-grand-titre);
 }
