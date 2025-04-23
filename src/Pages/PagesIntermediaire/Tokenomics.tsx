@@ -21,7 +21,7 @@ function Tokenomics() {
 						projet gère sa monnaie, et donc de savoir si son modèle est durable,
 						juste et intéressant pour investir
 					</p>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</div>
 			</article>
 
@@ -81,7 +81,7 @@ function Tokenomics() {
 						pourquoi il est essentiel d’analyser la tokenomics avant d’investir
 						?
 					</p>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</div>
 			</article>
 
@@ -97,7 +97,7 @@ function Tokenomics() {
 						valeur d’une crypto Une phrase à retenir : Le marketing attire, mais
 						la tokenomics révèle.
 					</p>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</div>
 			</article>
 		</>

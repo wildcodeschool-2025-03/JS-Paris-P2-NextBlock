@@ -13,7 +13,7 @@ function Analyse() {
 					accédez au cours complet.
 				</h2>
 
-				<button>analyse technique</button>
+				<button type="button">analyse technique</button>
 
 				<h2>
 					L’analyse fondamentale est une méthode utilisée pour évaluer la valeur
