@@ -2,7 +2,11 @@
 	--purple-color: #b840f0;
 	--blue-color: #6bade0;
 	--black-color: #090717;
-	--font-text: 'Open Sans', sans-serif;
-	--font-grand-titre: 'Audiowide', cursive;
-	--font-titres: 'Helvetica Neue', 'Arial', sans-serif;
+	--white-color: white;
+	--font-text: "Open Sans", sans-serif;
+	--font-grand-titre: "Audiowide", cursive;
+	--font-titres: "Helvetica Neue", "Arial", sans-serif;
+	--radius: 12px;
+	--gap: 24px;
+	--big-gap: 52px;
 }

@@ -1,3 +1,18 @@
 .grand-titre {
-    font-family: var(--font-grand-titre);
+	font-family: var(--font-grand-titre);
+}
+
+.main-Home {
+	display: flex;
+	align-items: center;
+	height: 85vh;
+}
+
+.div-home {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 30vw;
+	margin-left: 10%;
 }

@@ -1,13 +1,13 @@
-import './Analyse.css'
-import NavIntermediaire from '../../Components/NavIntermediaire'
+import "./Analyse.css";
+import NavIntermediaire from "../../Components/NavIntermediaire";
 
 function Analyse() {
-    return (
-        <>
-            < NavIntermediaire />
-            <h1>Analyse</h1>
-        </>
-    )
+	return (
+		<>
+			<NavIntermediaire />
+			<h1>Analyse</h1>
+		</>
+	);
 }
 
-export default Analyse
+export default Analyse;
