@@ -1,3 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bodyHome {
+	background-image: url("../img/imgFondHome.png");
+	background-position: center;
+	background-size: cover;
+}
+
 .grand-titre {
 	font-family: var(--font-grand-titre);
+}
+
+.main-Home {
+	display: flex;
+	align-items: center;
+	height: 85vh;
+}
+
+.div-home {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 30vw;
+	margin-left: 10%;
+}
+
+.text-home {
+	color: var(--white);
 }

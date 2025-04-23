@@ -4,7 +4,9 @@ import NavIntermediaire from "../../Components/NavIntermediaire";
 function Analyse() {
 	return (
 		<>
-			<NavIntermediaire />;<h1>L’analyse fondamentale et technique</h1>
+			<NavIntermediaire />
+			<h1>L’analyse fondamentale et technique</h1>
+
 			<div>
 				<h2>
 					Pour comprendre l'analyse technique cliquez sur le bouton ci-joint et
@@ -15,6 +17,7 @@ function Analyse() {
 					L’analyse fondamentale est une méthode utilisée pour évaluer la valeur
 					réelle d’un actif,
 				</h2>
+
 				<h3>Les 5 piliers de l'analyse fondamental dans la crypto</h3>
 			</div>
 			<article className="article-text">
