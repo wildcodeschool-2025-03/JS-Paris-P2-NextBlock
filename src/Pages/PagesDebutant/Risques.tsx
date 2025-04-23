@@ -1,13 +1,13 @@
-import './Risques.css';
-import NavDebutant from '../../Components/NavDebutant';
+import "./Risques.css";
+import NavDebutant from "../../Components/NavDebutant";
 
 function Risques() {
-    return (
-        <>
-            <NavDebutant />
-            <h1>Risques</h1>
-        </>
-    )
+	return (
+		<>
+			<NavDebutant />
+			<h1>Risques</h1>
+		</>
+	);
 }
 
-export default Risques
+export default Risques;

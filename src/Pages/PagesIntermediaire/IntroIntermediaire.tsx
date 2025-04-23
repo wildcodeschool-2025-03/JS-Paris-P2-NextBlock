@@ -25,7 +25,7 @@ function IntroIntermediaire() {
 							(santé de l’entreprise, contexte économique, etc.).
 						</p>
 					</div>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</article>
 
 				<article className="article-text">
@@ -46,7 +46,7 @@ function IntroIntermediaire() {
 							tenues sur plusieurs jours ou semaines
 						</p>
 					</div>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</article>
 
 				<article className="article-text">
@@ -72,7 +72,7 @@ function IntroIntermediaire() {
 							ordres facilement.
 						</p>
 					</div>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</article>
 
 				<article className="article-text">
@@ -105,7 +105,7 @@ function IntroIntermediaire() {
 							opportunités.
 						</p>
 					</div>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</article>
 
 				<article className="article-text">
@@ -119,7 +119,7 @@ function IntroIntermediaire() {
 							hasar
 						</p>
 					</div>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</article>
 			</>
 		</>

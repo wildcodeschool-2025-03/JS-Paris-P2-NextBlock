@@ -10,14 +10,14 @@ function Analyse() {
 					Pour comprendre l'analyse technique cliquez sur le bouton ci-joint et
 					accédez au cours complet.
 				</h2>
-				<button>analyse technique</button>
+				<button type="button">analyse technique</button>
 				<h2>
 					L’analyse fondamentale est une méthode utilisée pour évaluer la valeur
 					réelle d’un actif,
 				</h2>
 				<h3>Les 5 piliers de l'analyse fondamental dans la crypto</h3>
 			</div>
-			<article className="">
+			<article className="article-text">
 				<div className="">
 					<h2 className="h2-text">1- Le problème que le projet résout</h2>
 					<p className="">
@@ -27,7 +27,7 @@ function Analyse() {
 					</p>
 				</div>
 			</article>
-			<article className="">
+			<article className="article-text">
 				<div className="">
 					<h2 className="h2-text">2- L’équipe et les partenaires</h2>
 					<p className="">
@@ -38,7 +38,7 @@ function Analyse() {
 					</p>
 				</div>
 			</article>
-			<article className="">
+			<article className="article-text">
 				<div className="">
 					<h2 className="h2-text">3- Le whitepaper</h2>
 					<p className="">
@@ -49,7 +49,7 @@ function Analyse() {
 					</p>
 				</div>
 			</article>
-			<article className="">
+			<article className="article-text">
 				<div className="">
 					<h2 className="h2-text">4. La communauté et l’activité</h2>
 					<p className="">
@@ -59,7 +59,7 @@ function Analyse() {
 					</p>
 				</div>
 			</article>
-			<article className="">
+			<article className="article-text">
 				<div className="">
 					<h2 className="h2-text">5- La tokenomics (vue plus haut)</h2>
 					<p className="">
@@ -68,9 +68,9 @@ function Analyse() {
 						top sur le papier… mais mal géré économiquement = risque énorme.
 					</p>
 				</div>
-				<div className="div-image"></div>
+				<div className="div-image" />
 			</article>
-			<article className="">
+			<article className="article-text">
 				<div className="">
 					<h2 className="h2-text">
 						En résumé: pourquoi faire une analyse fondamentale ?
@@ -81,9 +81,9 @@ function Analyse() {
 						intrinsèque d’un projet
 					</p>
 				</div>
-				<div className="div-image"></div>
+				<div className="div-image" />
 			</article>
-			<article className="">
+			<article className="article-text">
 				<div className="">
 					<h2 className="h2-text">BONUS : Ce qu’elle n’est pas</h2>
 					<p className="">
@@ -97,7 +97,7 @@ function Analyse() {
 						profondeur, pas seulement de suivre un pump sur Twitter.
 					</p>
 				</div>
-				<div className="div-image"></div>
+				<div className="div-image" />
 			</article>
 		</>
 	);

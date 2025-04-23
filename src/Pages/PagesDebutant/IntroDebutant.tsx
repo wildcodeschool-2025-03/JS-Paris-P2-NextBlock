@@ -1,13 +1,13 @@
-import './IntroDebutant.css';
-import NavDebutant from '../../Components/NavDebutant';
+import "./IntroDebutant.css";
+import NavDebutant from "../../Components/NavDebutant";
 
 function IntroDebutant() {
-    return (
-        <>
-            <NavDebutant />
-            <h1>Intro debutant</h1>
-        </>
-    )
+	return (
+		<>
+			<NavDebutant />
+			<h1>Intro debutant</h1>
+		</>
+	);
 }
 
-export default IntroDebutant
+export default IntroDebutant;

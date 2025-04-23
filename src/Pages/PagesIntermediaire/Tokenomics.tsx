@@ -6,7 +6,7 @@ function Tokenomics() {
 		<>
 			<NavIntermediaire />
 			<h1>C’est quoi la Tokenomics ?</h1>
-			<article className="">
+			<article className="article-text">
 				<div>
 					<h2 className="h2-text">La tokenomics</h2>
 					<p className="">
@@ -21,11 +21,11 @@ function Tokenomics() {
 						projet gère sa monnaie, et donc de savoir si son modèle est durable,
 						juste et intéressant pour investir
 					</p>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</div>
 			</article>
 
-			<article>
+			<article className="article-text">
 				<h2 className="h2-text">Les piliers fondamentaux de la tokenomics</h2>
 				<div>
 					<h2 className="h2-text">1- L’offre totale (Total Supply)</h2>
@@ -66,7 +66,7 @@ function Tokenomics() {
 					</p>
 				</div>
 			</article>
-			<article className="">
+			<article className="article-text">
 				<div>
 					<h2 className="h2-text">5- La politique monétaire</h2>
 					<p className="">
@@ -81,11 +81,11 @@ function Tokenomics() {
 						pourquoi il est essentiel d’analyser la tokenomics avant d’investir
 						?
 					</p>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</div>
 			</article>
 
-			<article className="">
+			<article className="article-text">
 				<div>
 					<h2 className="h2-text">
 						En résumé : pourquoi tu dois t’intéresser à la tokenomics
@@ -97,7 +97,7 @@ function Tokenomics() {
 						valeur d’une crypto Une phrase à retenir : Le marketing attire, mais
 						la tokenomics révèle.
 					</p>
-					<div className="div-image"></div>
+					<div className="div-image" />
 				</div>
 			</article>
 		</>
