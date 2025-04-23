@@ -1,16 +1,13 @@
 import "./Home.css";
 import Nav from "../Components/Nav";
-import imgFondHome from "../img/imgFondHome.png"
+import imgFondHome from "../img/imgFondHome.png";
 
 function Home() {
 	return (
 		<>
 			<body className="bodyHome">
-
 				<Nav />
 				<main className="main-Home">
-
-
 					<div className="div-home">
 						<h1 className="grand-titre">NextBlock</h1>
 						<p className="text-home">
