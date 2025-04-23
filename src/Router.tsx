@@ -11,52 +11,51 @@ import Analyse from "./Pages/PagesIntermediaire/Analyse";
 import Tokenomics from "./Pages/PagesIntermediaire/Tokenomics";
 import ProfilCrypto from "./Pages/ProfilCrypto";
 
-const Routes = createBrowserRouter(
-    [{
-        element: <App />,
-        children: [
-            {
-                element: <Home />,
-                path: "/"
-            },
-            {
-                element: <AboutUs />,
-                path: "/AboutUs"
-            },
-            {
-                element: <CryptoMonnaies />,
-                path: "/CryptoMonnaies"
-            },
-            {
-                element: <ProfilCrypto />,
-                path: "/ProfilCrypto"
-            },
-            {
-                element: <Histoire />,
-                path: "/Histoire"
-            },
-            ,
-            {
-                element: <IntroDebutant />,
-                path: "/introDebutant"
-            },
-            {
-                element: <Risques />,
-                path: "/Risques"
-            },
-            {
-                element: <IntroIntermediaire />,
-                path: "/IntroIntermediaire"
-            },
-            {
-                element: <Analyse />,
-                path: "/Analyse"
-            },
-            {
-                element: <Tokenomics />,
-                path: "/Tokenomics"
-            }
-        ]
-    }]
-)
-export default Routes
+const Routes = createBrowserRouter([
+	{
+		element: <App />,
+		children: [
+			{
+				element: <Home />,
+				path: "/",
+			},
+			{
+				element: <AboutUs />,
+				path: "/AboutUs",
+			},
+			{
+				element: <CryptoMonnaies />,
+				path: "/CryptoMonnaies",
+			},
+			{
+				element: <ProfilCrypto />,
+				path: "/ProfilCrypto",
+			},
+			{
+				element: <Histoire />,
+				path: "/Histoire",
+			},
+			{
+				element: <IntroDebutant />,
+				path: "/introDebutant",
+			},
+			{
+				element: <Risques />,
+				path: "/Risques",
+			},
+			{
+				element: <IntroIntermediaire />,
+				path: "/IntroIntermediaire",
+			},
+			{
+				element: <Analyse />,
+				path: "/Analyse",
+			},
+			{
+				element: <Tokenomics />,
+				path: "/Tokenomics",
+			},
+		],
+	},
+]);
+export default Routes;
