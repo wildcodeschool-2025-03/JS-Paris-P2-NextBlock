@@ -1,10 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import App from "./App";
-import MenuBurger from "./Components/MenuBurger";
-import MenuBurger2 from "./Components/MenuBurger2";
 import AboutUs from "./Pages/AboutUs";
 import CryptoMonnaies from "./Pages/CryptosMonnaies";
 import Home from "./Pages/Home";
+import HomeDebutant from "./Pages/HomeDebutant";
 import Histoire from "./Pages/PagesDebutant/Histoire";
 import IntroDebutant from "./Pages/PagesDebutant/IntroDebutant";
 import Risques from "./Pages/PagesDebutant/Risques";
@@ -20,6 +19,10 @@ const Routes = createBrowserRouter([
 			{
 				element: <Home />,
 				path: "/",
+			},
+			{
+				element: <HomeDebutant />,
+				path: "/HomeDebutant",
 			},
 			{
 				element: <AboutUs />,
@@ -56,14 +59,6 @@ const Routes = createBrowserRouter([
 			{
 				element: <Tokenomics />,
 				path: "/Tokenomics",
-			},
-			{
-				element: <MenuBurger />,
-				path: "/MenuBurger",
-			},
-			{
-				element: <MenuBurger2 />,
-				path: "/MenuBurger2",
 			},
 		],
 	},

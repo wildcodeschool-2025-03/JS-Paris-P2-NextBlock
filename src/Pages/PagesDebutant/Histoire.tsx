@@ -6,8 +6,8 @@ function Histoire() {
 	return (
 		<>
 			<body className="bodyText">
-				<NavDbt />
-				<h1>L’histoire des cryptos</h1>
+				<NavDebutant />
+				<h1 className="h1-text">L’histoire des cryptos</h1>
 
 				<main className="main-text">
 					<article className="article-text">

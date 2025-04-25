@@ -8,7 +8,7 @@ function Risques() {
 		<>
 			<body className="bodyText">
 				<NavDebutant />
-				<h1>Les risques</h1>
+				<h1 className="h1-text">Les risques</h1>
 
 				<main className="main-text">
 					<div className="text-intro">

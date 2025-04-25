@@ -1,0 +1,82 @@
+.LinkCard {
+	text-decoration: none;
+}
+
+.cryptoCard {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 20px;
+	background: rgba(9, 7, 23, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: var(--radius);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	margin-top: 12px;
+}
+
+.cryptoCard-left {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.divIdLogo {
+	display: flex;
+	align-items: center;
+}
+
+.cryptoCard-ID,
+.cryptoCard-NAME,
+.cryptoCard-ABR,
+.cryptoCard-VALEUR,
+.cryptoCard-PRC {
+	font-family: var(--font-text);
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.divCardID {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+}
+
+.cryptoCard-ID {
+	color: var(--white-color);
+}
+
+.cryptoCard-LOGO {
+	height: 40px;
+	width: auto;
+	border-radius: 100px;
+}
+
+.divCardNAME {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.cryptoCard-NAME {
+	color: var(--white-color);
+}
+
+.cryptoCard-ABR {
+	color: var(--grey-color);
+}
+
+.divCardVALUE {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.cryptoCard-VALEUR {
+	color: var(--blue-color);
+}
+
+.cryptoCard-PRC {
+	color: var(--red-color);
+}
