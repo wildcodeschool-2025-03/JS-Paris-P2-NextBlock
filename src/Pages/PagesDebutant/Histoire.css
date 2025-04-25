@@ -24,6 +24,8 @@ h1 {
 	margin-right: 10%;
 	width: 80vw;
 	gap: var(--big-gap);
+
+	padding-bottom: 200px;
 }
 
 .div-text {

@@ -3,37 +3,42 @@ import "./footer.css";
 
 function Footer() {
 	return (
-		<footer>
-			<div>
-				<img src="" alt="logo" />
-				<h1>NextBlock</h1>
-				<p>"Explore the future, one block at a time."</p>
-			</div>
-			<div>
+		<footer className="Footer">
+			<article className="TitreLogo">
+				<div className="logoFooter">
+					<h1 className="TitreFooter">
+						Next<span className="CouleurLogo">Block</span>
+					</h1>
+					<p className="slogan">"Explore the future, one block at a time."</p>
+				</div>
+			</article>
+			<div className="Page">
 				<h2>Débutant</h2>
-				<Link className="link" to="/Histoire">
+				<Link className="LinkFooter" to="/Histoire">
 					L'Histoire
 				</Link>
-				<Link className="link" to="/IntroDebutant">
+				<Link className="LinkFooter" to="/IntroDebutant">
 					Introduction
 				</Link>
-				<Link className="link" to="/Risques">
+				<Link className="LinkFooter" to="/Risques">
 					Les risques
 				</Link>
 			</div>
-			<div>
+			<div className="Page">
 				<h2>Intermédiaire</h2>
-				<Link className="link" to="/Introduction">
+				<Link className="LinkFooter" to="/Introduction">
 					Introduction
 				</Link>
-				<Link className="link" to="/Analyse">
+				<Link className="LinkFooter" to="/Analyse">
 					Analyse
 				</Link>
-				<Link className="link" to="/Tokenomics">
+				<Link className="LinkFooter" to="/Tokenomics">
 					Tockenomics
 				</Link>
 			</div>
-			<button type="button">Crypto-monnaies</button>
+			<button type="button" className="BouttonCrypto">
+				Crypto-monnaies
+			</button>
 		</footer>
 	);
 }

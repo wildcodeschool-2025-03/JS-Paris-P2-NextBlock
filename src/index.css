@@ -10,4 +10,5 @@
 	--radius: 12px;
 	--gap: 24px;
 	--big-gap: 52px;
+	--grandiant: linear-gradient(45deg, #b840f0, #6bade0);
 }

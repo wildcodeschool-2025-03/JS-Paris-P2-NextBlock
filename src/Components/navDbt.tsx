@@ -1,18 +1,22 @@
 import { Link } from "react-router";
-import "./Nav.css";
-import MenuBurger from "./MenuBurger";
-import MenuBurger2 from "./MenuBurger2";
 
-function Nav() {
+function NavDbt() {
 	return (
 		<nav>
 			<Link to="/">
 				<img src="" alt="logo" />
 			</Link>
-			<MenuBurger />
-			<MenuBurger2 />
 
 			<article>
+				<Link className="link" to="/Histoire">
+					L'histoire
+				</Link>
+				<Link className="link" to="/IntroDebutant">
+					Introduction
+				</Link>
+				<Link className="link" to="/Risques">
+					ÀLes risques
+				</Link>
 				<Link className="link" to="/AboutUs">
 					À propos
 				</Link>
@@ -24,9 +28,14 @@ function Nav() {
 						CryptoMonnaies
 					</Link>
 				</button>
+				<button type="button">
+					<Link className="link" to="/">
+						changement de mode
+					</Link>
+				</button>
 			</div>
 		</nav>
 	);
 }
 
-export default Nav;
+export default NavDbt;

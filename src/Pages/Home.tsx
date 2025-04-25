@@ -1,12 +1,13 @@
 import "./Home.css";
 import Nav from "../Components/Nav";
+import NavDbt from "../Components/navDbt";
 import imgFondHome from "../img/imgFondHome.png";
 
 function Home() {
 	return (
 		<>
 			<body className="bodyHome">
-				<Nav />
+				<NavDbt />
 				<main className="main-Home">
 					<div className="div-home">
 						<h1 className="grand-titre">NextBlock</h1>

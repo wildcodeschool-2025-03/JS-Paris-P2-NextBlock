@@ -1,11 +1,12 @@
 import "./Histoire.css";
 import NavDebutant from "../../Components/NavDebutant";
+import NavDbt from "../../Components/navDbt";
 
 function Histoire() {
 	return (
 		<>
 			<body className="bodyText">
-				<NavDebutant />
+				<NavDbt />
 				<h1>L’histoire des cryptos</h1>
 
 				<main className="main-text">
