@@ -6,7 +6,7 @@ function Histoire() {
 		<>
 			<body className="bodyText">
 				<NavDebutant />
-				<h1>L’histoire des cryptos</h1>
+				<h1 className="h1-text">L’histoire des cryptos</h1>
 
 				<main className="main-text">
 					<article className="article-text">

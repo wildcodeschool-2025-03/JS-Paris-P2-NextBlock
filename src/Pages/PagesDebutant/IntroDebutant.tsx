@@ -6,7 +6,7 @@ function IntroDebutant() {
 		<>
 			<body className="bodyText">
 				<NavDebutant />
-				<h1>Introductions aux cryptos</h1>
+				<h1 className="h1-text">Introductions aux cryptos</h1>
 
 				<main className="main-text">
 					<article className="article-text">

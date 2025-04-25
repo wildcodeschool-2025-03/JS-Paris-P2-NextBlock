@@ -1,26 +1,26 @@
 import "./Home.css";
 import { Link } from "react-router";
 import Nav from "../Components/Nav";
+import NavDebutant from "../Components/NavDebutant";
 import imgFondHome from "../img/imgFondHome.png";
 
-function Home() {
+function HomeDebutant() {
 	return (
 		<>
 			<body className="bodyHome">
-				<Nav />
+				<NavDebutant />
 				<main className="main-Home">
 					<div className="div-home">
 						<h1 className="grand-titre">
-							Next<span id="span-grand-titre">Block</span>
+							Mode <br /> <span id="span-grand-titre">Débutant</span>
 						</h1>
 						<p className="text-home">
-							Le monde des crypto-monnaies peut sembler complexe, technique,
-							parfois même intimidant… <br /> Et pourtant, il est en train de
-							redéfinir la façon dont on pense l’argent, l’échange et
-							l’innovation. <br /> <br />
-							Informez-vous, formez-vous, et prenez part à l’évolution en cours.
+							Nous proposons une introduction claire et accessible à l’univers
+							des crypto-monnaies. L’objectif est de vous familiariser avec les
+							principes fondamentaux, les technologies utilisées et les enjeux
+							économiques de cet écosystème en pleine évolution.
 						</p>
-						<Link className="link-home" to="/HomeDebutant">
+						<Link>
 							<button className="btn-home" type="button">
 								Commencez le parcours
 							</button>{" "}
@@ -32,4 +32,4 @@ function Home() {
 	);
 }
 
-export default Home;
+export default HomeDebutant;

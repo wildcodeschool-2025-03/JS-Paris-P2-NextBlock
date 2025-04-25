@@ -9,7 +9,7 @@
 	background-size: cover;
 }
 
-h1 {
+.h1-text {
 	font-family: var(--font-grand-titre);
 	font-size: 64px;
 	color: var(--white-color);

@@ -3,6 +3,7 @@ import App from "./App";
 import AboutUs from "./Pages/AboutUs";
 import CryptoMonnaies from "./Pages/CryptosMonnaies";
 import Home from "./Pages/Home";
+import HomeDebutant from "./Pages/HomeDebutant";
 import Histoire from "./Pages/PagesDebutant/Histoire";
 import IntroDebutant from "./Pages/PagesDebutant/IntroDebutant";
 import Risques from "./Pages/PagesDebutant/Risques";
@@ -18,6 +19,10 @@ const Routes = createBrowserRouter([
 			{
 				element: <Home />,
 				path: "/",
+			},
+			{
+				element: <HomeDebutant />,
+				path: "/HomeDebutant",
 			},
 			{
 				element: <AboutUs />,
