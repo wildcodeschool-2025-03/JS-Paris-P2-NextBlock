@@ -1,0 +1,100 @@
+.bodyProfil {
+    background-image: url("../img/imgFondText.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionProfilCrypto,
+.DivLogoNomProfilCrypto,
+.LogoNomProfilCrypto,
+.divBtnProfil,
+.DivTextProfilCrypto {
+    display: flex;
+
+}
+
+.sectionProfilCrypto {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80vw;
+    gap: 24px;
+    background: rgba(9, 7, 23, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: var(--radius);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.FullDataProfilCrypto {
+    width: 48.5%;
+}
+
+.divGraphique {
+    width: 48.5%;
+}
+
+.DataProfilCrypto {
+    gap: 16px;
+}
+
+.DivLogoNomProfilCrypto {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoNomProfilCrypto,
+.DivTextProfilCrypto {
+    align-items: center;
+    gap: 16px;
+}
+
+.LogoProfilCrypto {
+    height: 88px;
+    width: 88px;
+}
+
+.NomProfilCrypto,
+.AbrProfilCrypto,
+.ValeurProfilCrypto {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.textProfilCrypto {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.NomProfilCrypto,
+.AbrProfilCrypto,
+.ValeurProfilCrypto,
+.textProfilCrypto,
+.exclamation,
+.btnSiteProfil {
+    font-family: var(--font-text);
+    color: var(--white-color);
+}
+
+.exclamation,
+.AbrProfilCrypto {
+    color: var(--grey-color);
+}
+
+.divExclamation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 100px;
+    border: solid 1px var(--grey-color);
+}
+
+.divBtnProfil {
+    width: 100%;
+}
+
+.btnSiteProfil {
+    background-color: var(--black-color);
+    border-radius: var(--radius);
+}

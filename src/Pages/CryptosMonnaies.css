@@ -1,43 +1,42 @@
 .MAIN-CryptoCard {
-	margin-left: 10%;
-	margin-right: 10%;
-	width: 80vw;
-	gap: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80vw;
 }
 
 .Card-Filtre-SearchBar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 24px;
-	margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 60px;
 }
 
 .Filtre {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .PictoSearch,
 .PictoFiltre {
-	height: 48px;
-	width: 48px;
+    height: 48px;
+    width: 48px;
 }
 
 .divSearchBar {
-	display: flex;
-	align-items: center;
-	background-color: var(--black-color);
-	border-radius: 100px;
-	border: solid var(--blue-color) 2px;
-	height: 48px;
+    display: flex;
+    align-items: center;
+    background-color: var(--black-color);
+    border-radius: 100px;
+    border: solid var(--blue-color) 2px;
+    height: 48px;
 }
 
 .SearchBar {
-	height: 44px;
-	width: 60vw;
-	background-color: var(--black-color);
-	border-radius: 100px;
-	border: none;
+    height: 44px;
+    width: 60vw;
+    background-color: var(--black-color);
+    border-radius: 100px;
+    border: none;
 }

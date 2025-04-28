@@ -36,9 +36,11 @@ function CryptoMonnaies() {
 				</article>
 
 				<section className="MAIN-CryptoCard">
+
 					{cryptos.map((crypto) => (
 						<CryptoCard key={crypto.id} crypto={crypto} />
 					))}
+
 				</section>
 			</main>
 		</>
