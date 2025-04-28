@@ -37,7 +37,15 @@ function CryptoCard({ crypto }: CryptoCardProps) {
 
 				<div className="divCardVALUE">
 					<p className="cryptoCard-VALEUR">{crypto.price}</p>
-					<p className="cryptoCard-PRC">{crypto.percentage_change}</p>
+					<p
+						className={
+							crypto.percentage_change.startsWith("+")
+								? "cryptoCard-PRC-green"
+								: "cryptoCard-PRC-red"
+						}
+					>
+						{crypto.percentage_change}
+					</p>
 				</div>
 			</article>
 		</Link>

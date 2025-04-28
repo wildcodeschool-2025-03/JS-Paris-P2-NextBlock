@@ -5,14 +5,17 @@ import Nav from "../Components/Nav";
 import PictoFiltre from "../img/Pictos/Picto-Filtre-Full.svg";
 import PictoSearch from "../img/Pictos/Picto-Search-Full.svg";
 
+import data from "../data.json";
+
 function CryptoMonnaies() {
 	const [cryptos, setCryptos] = useState([]);
 
 	useEffect(() => {
 		async function getCrypto() {
-			const response = await fetch("http://localhost:3000/cryptos");
+			/*const response = await fetch("http://localhost:3000/cryptos");
 			const data = await response.json();
-			setCryptos(data);
+			setCryptos(data);*/
+			setCryptos(data.cryptos);
 		}
 
 		getCrypto();
@@ -36,11 +39,9 @@ function CryptoMonnaies() {
 				</article>
 
 				<section className="MAIN-CryptoCard">
-
 					{cryptos.map((crypto) => (
 						<CryptoCard key={crypto.id} crypto={crypto} />
 					))}
-
 				</section>
 			</main>
 		</>
