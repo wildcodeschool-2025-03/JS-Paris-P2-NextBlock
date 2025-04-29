@@ -1,0 +1,43 @@
+.switch-container {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	gap: 10px;
+	color: none;
+}
+
+.switch-label {
+	font-size: 18px;
+	font-weight: bold;
+	color: #d06cff; /* couleur débutant */
+	transition: color 0.3s ease;
+}
+
+.switch {
+	width: 70px;
+	height: 35px;
+	background: linear-gradient(90deg, #d06cff, #6cd6ff); /*dégradé */
+	border-radius: 20px;
+	position: relative;
+	transition: background 0.3s ease;
+}
+
+.switch-circle {
+	width: 25px;
+	height: 25px;
+	background-color: #0f0f0f;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	transition: all 0.3s ease;
+}
+
+/* Quand Intermédiaire est actif */
+.intermediate .switch-circle {
+	left: 40px; /* déplace le rond à droite */
+}
+
+.intermediate + .switch-label {
+	color: #6cd6ff; /* couleur intermédiaire */
+}

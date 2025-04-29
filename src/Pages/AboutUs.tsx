@@ -1,10 +1,10 @@
 import "./AboutUs.css";
-import Nav from "../Components/Nav";
+import NavPrincipal from "../Components/NavPrincipal";
 
 function AboutUs() {
 	return (
 		<>
-			<Nav />
+			<NavPrincipal />
 			<h1>À propos</h1>
 		</>
 	);

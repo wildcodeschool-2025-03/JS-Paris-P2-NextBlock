@@ -1,6 +1,5 @@
 import "./Histoire.css";
 import NavDebutant from "../../Components/NavDebutant";
-import NavDbt from "../../Components/navDbt";
 
 function Histoire() {
 	return (

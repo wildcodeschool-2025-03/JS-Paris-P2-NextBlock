@@ -1,10 +1,10 @@
 import "./ProfilCrypto.css";
-import Nav from "../Components/Nav";
+import NavPrincipal from "../Components/NavPrincipal";
 
 function ProfilCrypto() {
 	return (
 		<>
-			<Nav />
+			<NavPrincipal />
 			<h1>Profil-Crypto</h1>
 		</>
 	);

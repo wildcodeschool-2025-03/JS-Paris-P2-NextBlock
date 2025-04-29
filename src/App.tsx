@@ -1,6 +1,6 @@
 import "./App.css";
 import { Link, Outlet } from "react-router";
-import Nav from "./Components/Nav";
+import Nav from "./Components/NavPrincipal";
 import Footer from "./Components/footer";
 
 function App() {

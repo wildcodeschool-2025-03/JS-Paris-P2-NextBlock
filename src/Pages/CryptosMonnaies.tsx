@@ -1,7 +1,7 @@
 import "./CryptosMonnaies.css";
 import { useEffect, useState } from "react";
 import CryptoCard from "../Components/CryptoCard";
-import Nav from "../Components/Nav";
+import NavPrincipal from "../Components/NavPrincipal";
 import PictoFiltre from "../img/Pictos/Picto-Filtre-Full.svg";
 import PictoSearch from "../img/Pictos/Picto-Search-Full.svg";
 
@@ -21,7 +21,7 @@ function CryptoMonnaies() {
 	return (
 		<>
 			<main className="bodyText">
-				<Nav />
+				<NavPrincipal />
 				<h1 className="h1-text">Cryptomonnaie</h1>
 
 				<article className="Card-Filtre-SearchBar">
