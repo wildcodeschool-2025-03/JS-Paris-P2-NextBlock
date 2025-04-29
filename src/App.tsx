@@ -1,12 +1,13 @@
 import "./App.css";
-import Nav from "./Components/Nav";
-import { Outlet, Link } from "react-router"
+import { Link, Outlet } from "react-router";
+import Nav from "./Components/NavPrincipal";
+import Footer from "./Components/footer";
 
 function App() {
-
 	return (
 		<>
-			< Outlet />
+			<Outlet />
+			<Footer />
 		</>
 	);
 }

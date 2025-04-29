@@ -1,0 +1,33 @@
+.link {
+	color: #6bade0;
+	text-decoration: none;
+}
+
+.NavP {
+	display: flex;
+	justify-content: space-around;
+}
+
+.BurgerDiv {
+	color: #6bade0;
+	display: flex;
+	gap: 50px;
+	font-size: 30px;
+}
+
+nav {
+	padding-top: 30px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.BtnCrypto {
+	height: 55px;
+	width: 250px;
+	font-size: 30px;
+	font-family: "Open Sans", sans-serif;
+	background: linear-gradient(45deg, #b840f0, #6bade0);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

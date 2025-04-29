@@ -1,0 +1,61 @@
+.Footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #090717;
+	height: 220px;
+	align-items: center;
+}
+
+.Page {
+	display: flex;
+	flex-direction: column;
+	color: #b840f0;
+}
+
+.logoFooter {
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	margin-top: 30px;
+}
+
+.slogan {
+	color: white;
+}
+
+.TitreLogo {
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+	padding-bottom: 5px;
+}
+
+.TitreFooter {
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.BouttonCrypto {
+	border-radius: 20px;
+	width: 180px;
+	height: 45px;
+	background: linear-gradient(45deg, #b840f0, #6bade0);
+}
+
+.CouleurLogo {
+	color: #b840f0;
+}
+
+.LinkFooter {
+	text-decoration: none;
+	color: #6bade0;
+	font-family: var(--font-text);
+}
+
+.Page {
+	gap: 10px;
+}
+
+.BouttonCrypto:hover {
+	transform: scale(1.1);
+}

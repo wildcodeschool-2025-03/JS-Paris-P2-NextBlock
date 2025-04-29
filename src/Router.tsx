@@ -1,13 +1,14 @@
 import { createBrowserRouter } from "react-router";
 import App from "./App";
-import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import CryptoMonnaies from "./Pages/CryptosMonnaies";
+import Home from "./Pages/Home";
+import HomeDebutant from "./Pages/HomeDebutant";
 import Histoire from "./Pages/PagesDebutant/Histoire";
 import IntroDebutant from "./Pages/PagesDebutant/IntroDebutant";
 import Risques from "./Pages/PagesDebutant/Risques";
-import IntroIntermediaire from "./Pages/PagesIntermediaire/IntroIntermediaire";
 import Analyse from "./Pages/PagesIntermediaire/Analyse";
+import IntroIntermediaire from "./Pages/PagesIntermediaire/IntroIntermediaire";
 import Tokenomics from "./Pages/PagesIntermediaire/Tokenomics";
 import ProfilCrypto from "./Pages/ProfilCrypto";
 
@@ -18,6 +19,10 @@ const Routes = createBrowserRouter([
 			{
 				element: <Home />,
 				path: "/",
+			},
+			{
+				element: <HomeDebutant />,
+				path: "/HomeDebutant",
 			},
 			{
 				element: <AboutUs />,

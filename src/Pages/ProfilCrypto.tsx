@@ -1,9 +1,13 @@
-import './ProfilCrypto.css';
+import "./ProfilCrypto.css";
+import NavPrincipal from "../Components/NavPrincipal";
 
 function ProfilCrypto() {
-    return (
-        <h1>Profil-Crypto</h1>
-    )
+	return (
+		<>
+			<NavPrincipal />
+			<h1>Profil-Crypto</h1>
+		</>
+	);
 }
 
-export default ProfilCrypto
+export default ProfilCrypto;

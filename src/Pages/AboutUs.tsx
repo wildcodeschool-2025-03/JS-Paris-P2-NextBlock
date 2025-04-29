@@ -1,13 +1,13 @@
-import './AboutUs.css'
-import Nav from '../Components/Nav';
+import "./AboutUs.css";
+import NavPrincipal from "../Components/NavPrincipal";
 
 function AboutUs() {
-    return (
-        <>
-            <Nav />
-            <h1>À propos</h1>
-        </>
-    )
+	return (
+		<>
+			<NavPrincipal />
+			<h1>À propos</h1>
+		</>
+	);
 }
 
 export default AboutUs;
