@@ -7,6 +7,7 @@
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"check": "biome check --error-on-warnings --no-errors-on-unmatched --staged . && npm run check-types --if-present",
+		"check:fix": "biome check --write --error-on-warnings --no-errors-on-unmatched --staged .",
 		"preview": "vite preview",
 		"prepare": "husky || true"
 	},

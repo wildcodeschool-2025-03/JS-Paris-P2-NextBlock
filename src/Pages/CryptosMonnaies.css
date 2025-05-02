@@ -1,8 +1,9 @@
 .MAIN-CryptoCard {
 	margin-left: 10%;
 	margin-right: 10%;
-	width: 80vw;
-	gap: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 21px;
 }
 
 .Card-Filtre-SearchBar {
@@ -40,4 +41,8 @@
 	background-color: var(--black-color);
 	border-radius: 100px;
 	border: none;
+}
+
+.linkCryptoMonnaie {
+	text-decoration: none;
 }

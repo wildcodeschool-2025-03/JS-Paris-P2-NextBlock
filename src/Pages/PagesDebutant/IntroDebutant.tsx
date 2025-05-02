@@ -1,4 +1,3 @@
-import "./IntroDebutant.css";
 import NavDebutant from "../../Components/NavDebutant";
 
 function IntroDebutant() {

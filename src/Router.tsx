@@ -34,7 +34,7 @@ const Routes = createBrowserRouter([
 			},
 			{
 				element: <ProfilCrypto />,
-				path: "/ProfilCrypto",
+				path: "/ProfilCrypto/:id",
 			},
 			{
 				element: <Histoire />,
