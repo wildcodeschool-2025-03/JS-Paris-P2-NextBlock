@@ -1,4 +1,3 @@
-import "./Risques.css";
 import NavDebutant from "../../Components/NavDebutant";
 import imgFondHome from "../../img/imgFondHome.png";
 import imgFondText from "../../img/imgFondText.png";

@@ -28,13 +28,13 @@ function NavDebutant() {
 				</article>
 			) : (
 				<article className="NavPages">
-					<Link className="link" to="/Histoire">
+					<Link className="link" to="/IntroIntermediaire">
 						Introduction
 					</Link>
-					<Link className="link" to="/IntroDebutant">
+					<Link className="link" to="/Analyse">
 						Analyse
 					</Link>
-					<Link className="link" to="/Risques">
+					<Link className="link" to="/Tockenomics">
 						Tockenomics
 					</Link>
 					<Link className="link" to="/AboutUs">

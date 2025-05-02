@@ -1,7 +1,9 @@
 import "./CryptosMonnaies.css";
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 import CryptoCard from "../Components/CryptoCard";
 import NavPrincipal from "../Components/NavPrincipal";
+import data from "../data.json";
 import PictoFiltre from "../img/Pictos/Picto-Filtre-Full.svg";
 import PictoSearch from "../img/Pictos/Picto-Search-Full.svg";
 
@@ -10,16 +12,18 @@ function CryptoMonnaies() {
 
 	useEffect(() => {
 		async function getCrypto() {
-			const response = await fetch("http://localhost:3000/cryptos");
+			/*const response = await fetch("http://localhost:3000/cryptos");
 			const data = await response.json();
-			setCryptos(data);
+			setCryptos(data);*/
+			setCryptos(data.cryptos);
 		}
 
 		getCrypto();
 	}, []);
 
+	console.info(cryptos);
 	return (
-		<>
+		cryptos && (
 			<main className="bodyText">
 				<NavPrincipal />
 				<h1 className="h1-text">Cryptomonnaie</h1>
@@ -37,11 +41,17 @@ function CryptoMonnaies() {
 
 				<section className="MAIN-CryptoCard">
 					{cryptos.map((crypto) => (
-						<CryptoCard key={crypto.id} crypto={crypto} />
+						<Link
+							className="linkCryptoMonnaie"
+							key={crypto.id}
+							to={`/ProfilCrypto/${crypto.id}`}
+						>
+							<CryptoCard crypto={crypto} />
+						</Link>
 					))}
 				</section>
 			</main>
-		</>
+		)
 	);
 }
 

@@ -4,11 +4,11 @@ import NavDebutant from "../../Components/NavDebutant";
 function Histoire() {
 	return (
 		<>
-			<body className="bodyText">
+			<main className="bodyText">
 				<NavDebutant />
 				<h1 className="h1-text">L’histoire des cryptos</h1>
 
-				<main className="main-text">
+				<section className="main-text">
 					<article className="article-text">
 						<div className="div-text">
 							<h2 className="h2-text">Les débuts</h2>
@@ -140,8 +140,8 @@ function Histoire() {
 
 						<div className="div-image" />
 					</article>
-				</main>
-			</body>
+				</section>
+			</main>
 		</>
 	);
 }

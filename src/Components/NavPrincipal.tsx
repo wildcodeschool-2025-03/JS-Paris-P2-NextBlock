@@ -15,7 +15,7 @@ const debutant = {
 const intermediaire = {
 	title: "Intermédiaire",
 	list: [
-		{ title: "Introduction", url: "/Introduction" },
+		{ title: "Introduction", url: "/IntroIntermediaire" },
 		{ title: "Analyse", url: "/Analyse" },
 		{ title: "Tokenomics", url: "/Tokenimics" },
 	],

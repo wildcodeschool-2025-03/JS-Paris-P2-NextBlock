@@ -11,7 +11,6 @@
 	-webkit-backdrop-filter: blur(10px);
 	border-radius: var(--radius);
 	border: 1px solid rgba(255, 255, 255, 0.1);
-	margin-top: 12px;
 }
 
 .cryptoCard-left {
@@ -29,7 +28,9 @@
 .cryptoCard-NAME,
 .cryptoCard-ABR,
 .cryptoCard-VALEUR,
-.cryptoCard-PRC {
+.cryptoCard-PRC,
+.cryptoCard-PRC-green,
+.cryptoCard-PRC-red {
 	font-family: var(--font-text);
 	font-size: 24px;
 	font-weight: 600;
@@ -77,6 +78,10 @@
 	color: var(--blue-color);
 }
 
-.cryptoCard-PRC {
+.cryptoCard-PRC-red {
 	color: var(--red-color);
+}
+
+.cryptoCard-PRC-green {
+	color: var(--green-color);
 }
