@@ -3,11 +3,14 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import CryptoCard from "../Components/CryptoCard";
 import NavPrincipal from "../Components/NavPrincipal";
+import SearchBar from "../Components/SearchBar";
 import data from "../data.json";
 import PictoFiltre from "../img/Pictos/Picto-Filtre-Full.svg";
 import PictoSearch from "../img/Pictos/Picto-Search-Full.svg";
 
 function CryptoMonnaies() {
+	const [search, setSearch] = useState("");
+
 	const [cryptos, setCryptos] = useState([]);
 
 	useEffect(() => {
@@ -21,7 +24,10 @@ function CryptoMonnaies() {
 		getCrypto();
 	}, []);
 
-	console.info(cryptos);
+	const searchedCryptos = cryptos.filter((crypto) =>
+		crypto.name.toLowerCase().includes(search.toLowerCase()),
+	);
+
 	return (
 		cryptos && (
 			<main className="bodyText">
@@ -34,13 +40,14 @@ function CryptoMonnaies() {
 					</div>
 
 					<div className="divSearchBar">
-						<input className="SearchBar" type="text" />
+						<SearchBar search={search} setSearch={setSearch} />
+
 						<img className="PictoSearch" src={PictoSearch} alt="Picto Search" />
 					</div>
 				</article>
 
 				<section className="MAIN-CryptoCard">
-					{cryptos.map((crypto) => (
+					{searchedCryptos.map((crypto) => (
 						<Link
 							className="linkCryptoMonnaie"
 							key={crypto.id}
