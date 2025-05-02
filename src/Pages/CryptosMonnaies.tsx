@@ -1,11 +1,11 @@
 import "./CryptosMonnaies.css";
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 import CryptoCard from "../Components/CryptoCard";
-import Nav from "../Components/Nav";
+import NavPrincipal from "../Components/NavPrincipal";
+import data from "../data.json";
 import PictoFiltre from "../img/Pictos/Picto-Filtre-Full.svg";
 import PictoSearch from "../img/Pictos/Picto-Search-Full.svg";
-
-import data from "../data.json";
 
 function CryptoMonnaies() {
 	const [cryptos, setCryptos] = useState([]);
@@ -21,10 +21,11 @@ function CryptoMonnaies() {
 		getCrypto();
 	}, []);
 
+	console.info(cryptos);
 	return (
-		<>
+		cryptos && (
 			<main className="bodyText">
-				<Nav />
+				<NavPrincipal />
 				<h1 className="h1-text">Cryptomonnaie</h1>
 
 				<article className="Card-Filtre-SearchBar">
@@ -40,11 +41,17 @@ function CryptoMonnaies() {
 
 				<section className="MAIN-CryptoCard">
 					{cryptos.map((crypto) => (
-						<CryptoCard key={crypto.id} crypto={crypto} />
+						<Link
+							className="linkCryptoMonnaie"
+							key={crypto.id}
+							to={`/ProfilCrypto/${crypto.id}`}
+						>
+							<CryptoCard crypto={crypto} />
+						</Link>
 					))}
 				</section>
 			</main>
-		</>
+		)
 	);
 }
 

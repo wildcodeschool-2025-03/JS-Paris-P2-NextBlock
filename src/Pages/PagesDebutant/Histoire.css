@@ -24,6 +24,8 @@
 	margin-right: 10%;
 	width: 80vw;
 	gap: var(--big-gap);
+
+	padding-bottom: 200px;
 }
 
 .div-text {
@@ -56,6 +58,7 @@
 	-webkit-backdrop-filter: blur(10px);
 
 	border-radius: var(--radius);
+	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .article-text {

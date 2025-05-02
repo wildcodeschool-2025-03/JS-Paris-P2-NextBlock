@@ -1,8 +1,7 @@
 import "./Home.css";
 import { Link } from "react-router";
-import Nav from "../Components/Nav";
 import NavDebutant from "../Components/NavDebutant";
-import imgFondHome from "../img/imgFondHome.png";
+/*import imgFondHome from "../img/imgFondHome.png";*/
 
 function HomeDebutant() {
 	return (

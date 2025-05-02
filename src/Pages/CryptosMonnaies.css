@@ -42,3 +42,7 @@
 	border-radius: 100px;
 	border: none;
 }
+
+.linkCryptoMonnaie {
+	text-decoration: none;
+}

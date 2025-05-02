@@ -28,7 +28,9 @@
 .cryptoCard-NAME,
 .cryptoCard-ABR,
 .cryptoCard-VALEUR,
-.cryptoCard-PRC {
+.cryptoCard-PRC,
+.cryptoCard-PRC-green,
+.cryptoCard-PRC-red {
 	font-family: var(--font-text);
 	font-size: 24px;
 	font-weight: 600;

@@ -1,13 +1,13 @@
 import "./Home.css";
 import { Link } from "react-router";
-import Nav from "../Components/Nav";
-import imgFondHome from "../img/imgFondHome.png";
+/*import imgFondHome from "../img/imgFondHome.png";*/
+import NavPrincipal from "../Components/NavPrincipal";
 
 function Home() {
 	return (
 		<>
 			<body className="bodyHome">
-				<Nav />
+				<NavPrincipal />
 				<main className="main-Home">
 					<div className="div-home">
 						<h1 className="grand-titre">
