@@ -1,9 +1,7 @@
 import { useState } from "react";
 import "./SwitchMode.css";
 
-const SwitchMode = () => {
-	const [isBeginner, setIsBeginner] = useState(true);
-
+const SwitchMode = ({ isBeginner, setIsBeginner }) => {
 	const toggleSwitch = () => {
 		setIsBeginner(!isBeginner);
 	};

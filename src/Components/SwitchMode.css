@@ -1,9 +1,10 @@
 .switch-container {
+	all: unset;
 	display: flex;
 	align-items: center;
 	cursor: pointer;
 	gap: 10px;
-	color: none;
+	/* background-color: transparent; */
 }
 
 .switch-label {

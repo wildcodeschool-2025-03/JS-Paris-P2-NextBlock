@@ -1,11 +1,11 @@
 import "./Tokenomics.css";
-import NavIntermediaire from "../../Components/NavIntermediaire";
+import NavDebutant from "../../Components/NavDebutant";
 
 function Tokenomics() {
 	return (
 		<>
 			<body className="bodyText">
-				<NavIntermediaire />
+				<NavDebutant />
 				<main className="main-text">
 					<h1>C’est quoi la Tokenomics ?</h1>
 					<article className="article-text">

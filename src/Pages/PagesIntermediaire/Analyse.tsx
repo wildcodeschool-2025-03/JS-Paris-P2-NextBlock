@@ -1,11 +1,11 @@
 import "./Analyse.css";
-import NavIntermediaire from "../../Components/NavIntermediaire";
+import NavDebutant from "../../Components/NavDebutant";
 
 function Analyse() {
 	return (
 		<>
 			<body className="bodyText">
-				<NavIntermediaire />
+				<NavDebutant />
 				<main className="main-text">
 					<h1>L’analyse fondamentale et technique</h1>
 

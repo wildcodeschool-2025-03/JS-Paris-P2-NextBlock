@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router";
 
-const MenuBurger = () => {
+const MenuBurger = ({ pagesLevel }) => {
 	const [isOpen, setIsOpen] = useState(false);
-
 	return (
 		<div className="dropdown">
 			<div
@@ -10,14 +10,16 @@ const MenuBurger = () => {
 				onClick={() => setIsOpen(!isOpen)}
 				onKeyUp={() => setIsOpen(!isOpen)}
 			>
-				<span>Débutant</span>
+				<span>{pagesLevel.title}</span>
 				<span className="arrow">{isOpen ? "▾" : "▸"}</span>
 			</div>
 			{isOpen && (
 				<ul className="dropdown-list">
-					<li>L’histoire</li>
-					<li>Introduction</li>
-					<li>Les risques</li>
+					{pagesLevel.list.map((item) => (
+						<li key={item}>
+							<Link to={item.url}>{item.title}</Link>
+						</li>
+					))}
 				</ul>
 			)}
 		</div>
