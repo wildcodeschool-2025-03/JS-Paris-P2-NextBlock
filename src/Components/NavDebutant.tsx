@@ -1,40 +1,56 @@
 import "./NavDebutant.css";
+import { useState } from "react";
 import { Link } from "react-router";
+import SwitchMode from "./SwitchMode";
 
 function NavDebutant() {
+	const [isBeginner, setIsBeginner] = useState(true);
 	return (
-		<nav>
+		<nav className="NavP">
 			<Link to="/">
 				<img src="" alt="logo" />
 			</Link>
 
-			<article>
-				<Link className="link" to="/Histoire">
-					L'histoire
-				</Link>
-				<Link className="link" to="/IntroDebutant">
-					Introduction
-				</Link>
-				<Link className="link" to="/Risques">
-					Risques
-				</Link>
-				<Link className="link" to="/AboutUs">
-					À propos
-				</Link>
-			</article>
+			{isBeginner ? (
+				<article className="NavPages">
+					<Link className="link" to="/Histoire">
+						L'histoire
+					</Link>
+					<Link className="link" to="/IntroDebutant">
+						Introduction
+					</Link>
+					<Link className="link" to="/Risques">
+						Risques
+					</Link>
+					<Link className="link" to="/AboutUs">
+						À propos
+					</Link>
+				</article>
+			) : (
+				<article className="NavPages">
+					<Link className="link" to="/IntroIntermediaire">
+						Introduction
+					</Link>
+					<Link className="link" to="/Analyse">
+						Analyse
+					</Link>
+					<Link className="link" to="/Tockenomics">
+						Tockenomics
+					</Link>
+					<Link className="link" to="/AboutUs">
+						À propos
+					</Link>
+				</article>
+			)}
 
 			<div className="CryptoNav">
 				<button type="button">
-					<Link className="link" to="/CryptoMonnaies">
+					<Link className="BtnCrypto" to="/CryptoMonnaies">
 						CryptoMonnaies
 					</Link>
 				</button>
-				<button type="button">
-					<Link className="link" to="/">
-						changement de mode
-					</Link>
-				</button>
 			</div>
+			<SwitchMode isBeginner={isBeginner} setIsBeginner={setIsBeginner} />
 		</nav>
 	);
 }

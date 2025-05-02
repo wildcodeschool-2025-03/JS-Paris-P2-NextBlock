@@ -1,10 +1,10 @@
-import NavIntermediaire from "../../Components/NavIntermediaire";
+import NavDebutant from "../../Components/NavDebutant";
 
 function IntroIntermediaire() {
 	return (
 		<>
 			<body className="bodyText">
-				<NavIntermediaire />
+				<NavDebutant />
 				<main className="main-text">
 					<h1 className="h1-text">
 						Introduction au monde de l’investissement et du trading

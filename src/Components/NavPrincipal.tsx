@@ -3,6 +3,24 @@ import MenuBurger from "./MenuBurger";
 import SwitchMode from "./SwitchMode";
 import "./NavPrincipal.css";
 
+const debutant = {
+	title: "Débutant",
+	list: [
+		{ title: "histoire", url: "/Histoire" },
+		{ title: "Introduction", url: "/Introduction" },
+		{ title: "Les risques", url: "/Risques" },
+	],
+};
+
+const intermediaire = {
+	title: "Intermédiaire",
+	list: [
+		{ title: "Introduction", url: "/IntroIntermediaire" },
+		{ title: "Analyse", url: "/Analyse" },
+		{ title: "Tokenomics", url: "/Tokenimics" },
+	],
+};
+
 function NavPrincipal() {
 	return (
 		<nav className="NavP">
@@ -10,7 +28,8 @@ function NavPrincipal() {
 				<img src="" alt="logo" />
 			</Link>
 			<div className="BurgerDiv">
-				<MenuBurger />
+				<MenuBurger pagesLevel={debutant} />
+				<MenuBurger pagesLevel={intermediaire} />
 				<Link className="link" to="/AboutUs">
 					À propos
 				</Link>
@@ -21,8 +40,6 @@ function NavPrincipal() {
 					crypto-monaies
 				</button>
 			</div>
-
-			<SwitchMode />
 		</nav>
 	);
 }

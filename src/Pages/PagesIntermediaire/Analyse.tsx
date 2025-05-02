@@ -1,9 +1,9 @@
-import NavIntermediaire from "../../Components/NavIntermediaire";
+import NavDebutant from "../../Components/NavDebutant";
 
 function Analyse() {
 	return (
 		<main className="bodyText">
-			<NavIntermediaire />
+			<NavDebutant />
 			<section className="main-text">
 				<h1 className="h1-text">L’analyse fondamentale et technique</h1>
 
