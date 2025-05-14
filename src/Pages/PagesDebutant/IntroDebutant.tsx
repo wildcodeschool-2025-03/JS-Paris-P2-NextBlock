@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import NavDebutant from "../../Components/NavDebutant";
 
 function IntroDebutant() {
@@ -122,6 +123,12 @@ function IntroDebutant() {
 
 						<div className="div-image" />
 					</article>
+
+					<div className="divBtnChapitre">
+						<Link className="btnChapitre" to="/Risques">
+							Passez au chapitre suivant
+						</Link>
+					</div>
 				</main>
 			</body>
 		</>

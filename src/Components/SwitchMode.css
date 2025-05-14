@@ -10,14 +10,15 @@
 .switch-label {
 	font-size: 18px;
 	font-weight: bold;
-	color: #d06cff; /* couleur débutant */
+	color: var(--purple-color);
+	/* couleur débutant */
 	transition: color 0.3s ease;
 }
 
 .switch {
 	width: 70px;
 	height: 35px;
-	background: linear-gradient(90deg, #d06cff, #6cd6ff); /*dégradé */
+	background: var(--gradiant);
 	border-radius: 20px;
 	position: relative;
 	transition: background 0.3s ease;
@@ -36,9 +37,11 @@
 
 /* Quand Intermédiaire est actif */
 .intermediate .switch-circle {
-	left: 40px; /* déplace le rond à droite */
+	left: 40px;
+	/* déplace le rond à droite */
 }
 
 .intermediate + .switch-label {
-	color: #6cd6ff; /* couleur intermédiaire */
+	color: var(--blue-color);
+	/* couleur intermédiaire */
 }

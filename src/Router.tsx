@@ -7,6 +7,7 @@ import HomeDebutant from "./Pages/HomeDebutant";
 import Histoire from "./Pages/PagesDebutant/Histoire";
 import IntroDebutant from "./Pages/PagesDebutant/IntroDebutant";
 import Risques from "./Pages/PagesDebutant/Risques";
+import Transition from "./Pages/PagesDebutant/Transition";
 import Analyse from "./Pages/PagesIntermediaire/Analyse";
 import IntroIntermediaire from "./Pages/PagesIntermediaire/IntroIntermediaire";
 import Tokenomics from "./Pages/PagesIntermediaire/Tokenomics";
@@ -47,6 +48,10 @@ const Routes = createBrowserRouter([
 			{
 				element: <Risques />,
 				path: "/Risques",
+			},
+			{
+				element: <Transition />,
+				path: "/Transition",
 			},
 			{
 				element: <IntroIntermediaire />,

@@ -1,7 +1,7 @@
 .Footer {
 	display: flex;
 	justify-content: space-around;
-	background-color: #090717;
+	background-color: var(--black-color);
 	height: 220px;
 	align-items: center;
 }
@@ -9,7 +9,7 @@
 .Page {
 	display: flex;
 	flex-direction: column;
-	color: #b840f0;
+	color: var(--purple-color);
 }
 
 .logoFooter {
@@ -20,7 +20,7 @@
 }
 
 .slogan {
-	color: white;
+	color: var(--white-color);
 }
 
 .TitreLogo {
@@ -39,16 +39,16 @@
 	border-radius: 20px;
 	width: 180px;
 	height: 45px;
-	background: linear-gradient(45deg, #b840f0, #6bade0);
+	background: var(--gradiant);
 }
 
 .CouleurLogo {
-	color: #b840f0;
+	color: var(--purple-color);
 }
 
 .LinkFooter {
 	text-decoration: none;
-	color: #6bade0;
+	color: var(--blue-color);
 	font-family: var(--font-text);
 }
 
