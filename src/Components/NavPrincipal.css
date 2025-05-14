@@ -7,6 +7,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 8px 60px 0 60px;
 }
 
 .BurgerDiv {
@@ -34,4 +35,37 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.logo {
+	height: 100px;
+	width: auto;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown-list {
+	position: absolute;
+}
+
+.dropdown-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.dropdown-list {
+	display: flex;
+	margin-top: 8px;
+	flex-direction: column;
+	gap: 8px;
+	list-style-type: none;
+}
+
+.lienList {
+	color: var(--purple-color);
 }

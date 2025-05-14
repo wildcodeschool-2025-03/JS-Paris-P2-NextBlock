@@ -1,6 +1,7 @@
 import "./NavDebutant.css";
 import { useState } from "react";
 import { Link } from "react-router";
+import logo from "../img/logocrypto.png";
 import SwitchMode from "./SwitchMode";
 
 function NavDebutant() {
@@ -8,7 +9,7 @@ function NavDebutant() {
 	return (
 		<nav className="NavP">
 			<Link to="/">
-				<img src="" alt="logo" />
+				<img className="logo" src={logo} alt="logo" />
 			</Link>
 
 			{isBeginner ? (
