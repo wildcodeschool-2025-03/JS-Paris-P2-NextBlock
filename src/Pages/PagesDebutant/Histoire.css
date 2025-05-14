@@ -28,6 +28,28 @@
 	padding-bottom: 200px;
 }
 
+.text-intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
+}
+
+.h2-text-intro {
+	text-align: center;
+	font-family: var(--font-titres);
+	font-size: 32px;
+	color: var(--white-color);
+	letter-spacing: 1px;
+}
+
+.paragraphe-text-intro {
+	text-align: center;
+	font-family: var(--font-text);
+	font-size: 20px;
+	color: var(--white-color);
+}
+
 .div-text {
 	display: flex;
 	flex-direction: column;
@@ -100,4 +122,29 @@
 	background-color: brown;
 	object-fit: cover;
 	height: 200px;
+}
+
+.divBtnChapitre {
+	width: 100%;
+	display: flex;
+	justify-content: end;
+}
+
+.divBtnTransition {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.btnChapitre {
+	font-family: var(--font-text);
+	color: var(--dark-color);
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: var(--radius);
+	width: 400px;
+	padding: 12px 0 12px 0;
+	background-color: var(--blue-color);
 }

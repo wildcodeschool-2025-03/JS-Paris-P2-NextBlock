@@ -1,4 +1,5 @@
 import "./Histoire.css";
+import { Link } from "react-router";
 import NavDebutant from "../../Components/NavDebutant";
 
 function Histoire() {
@@ -140,6 +141,12 @@ function Histoire() {
 
 						<div className="div-image" />
 					</article>
+
+					<div className="divBtnChapitre">
+						<Link className="btnChapitre" to="/introDebutant">
+							Passez au chapitre suivant
+						</Link>
+					</div>
 				</section>
 			</main>
 		</>

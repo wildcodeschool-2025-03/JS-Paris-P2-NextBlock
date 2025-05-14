@@ -1,5 +1,5 @@
 .link {
-	color: #6bade0;
+	color: var(--blue-color);
 	text-decoration: none;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .BurgerDiv {
-	color: #6bade0;
+	color: var(--blue-color);
 	display: flex;
 	gap: 50px;
 	font-size: 20px;
@@ -29,7 +29,7 @@ nav {
 	font-size: 20px;
 	padding: 0.7rem;
 	font-family: "Open Sans", sans-serif;
-	background: linear-gradient(45deg, #b840f0, #6bade0);
+	background: var(--gradiant);
 	border-radius: 10px;
 	display: flex;
 	justify-content: center;

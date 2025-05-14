@@ -12,13 +12,17 @@
 		"prepare": "husky || true"
 	},
 	"dependencies": {
+		"axios": "^1.9.0",
 		"beercontest": "file:",
+		"chart.js": "^4.4.9",
 		"dotenv": "^16.4.5",
 		"gg": "file:",
 		"lesperses": "file:",
 		"react": "^18.3.1",
+		"react-chartjs-2": "^5.3.0",
 		"react-dom": "^18.3.1",
-		"react-router": "^7.5.1"
+		"react-router": "^7.5.1",
+		"recharts": "^2.15.3"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.2",

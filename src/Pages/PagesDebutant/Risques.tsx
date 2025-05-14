@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import NavDebutant from "../../Components/NavDebutant";
 import imgFondHome from "../../img/imgFondHome.png";
 import imgFondText from "../../img/imgFondText.png";
@@ -5,16 +6,16 @@ import imgFondText from "../../img/imgFondText.png";
 function Risques() {
 	return (
 		<>
-			<body className="bodyText">
+			<main className="bodyText">
 				<NavDebutant />
 				<h1 className="h1-text">Les risques</h1>
 
-				<main className="main-text">
+				<section className="main-text">
 					<div className="text-intro">
-						<h2 className="h2-text">
+						<h2 className="h2-text-intro">
 							Comprendre les risques des cryptomonnaies
 						</h2>
-						<p className="paragraphe-text">
+						<p className="paragraphe-text-intro">
 							Les cryptomonnaies ouvrent la porte à un monde nouveau,
 							passionnant et plein d’opportunités. Mais comme toute technologie
 							puissante, elles viennent aussi avec leur lot de risques. Voici
@@ -130,8 +131,14 @@ function Risques() {
 							</p>
 						</div>
 					</article>
-				</main>
-			</body>
+
+					<div className="divBtnChapitre">
+						<Link className="btnChapitre" to="/Transition">
+							Passez au chapitre suivant
+						</Link>
+					</div>
+				</section>
+			</main>
 		</>
 	);
 }

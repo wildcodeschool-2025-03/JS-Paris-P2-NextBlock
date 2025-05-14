@@ -44,11 +44,9 @@ function NavDebutant() {
 			)}
 
 			<div className="CryptoNav">
-				<button type="button">
-					<Link className="BtnCrypto" to="/CryptoMonnaies">
-						CryptoMonnaies
-					</Link>
-				</button>
+				<Link className="BtnCrypto" to="/CryptoMonnaies">
+					CryptoMonnaies
+				</Link>
 			</div>
 			<SwitchMode isBeginner={isBeginner} setIsBeginner={setIsBeginner} />
 		</nav>
