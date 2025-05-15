@@ -4,7 +4,7 @@
 }
 
 .bodyText {
-	background-image: url("../../img/imgFondText.png");
+	background-image: url("../../img/3057246_11zon.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -111,7 +111,8 @@
 .div-image {
 	border-radius: var(--radius);
 	border: solid 2px black;
-	background-image: url("../../img/imgFondHome.png");
+	background-size: cover;
+	background-position: 50% 50%;
 	width: 50%;
 	object-fit: cover;
 }
@@ -147,4 +148,53 @@
 	width: 400px;
 	padding: 12px 0 12px 0;
 	background-color: var(--blue-color);
+}
+
+#imgH1 {
+	background-image: url("../../img/page1D/lesDébuts.png");
+}
+
+#imgH2 {
+	background-image: url("../../img/page1D/leBitcoin.jpeg");
+}
+
+#imgH3 {
+	background-image: url("../../img/page1D/pizza_btc.png");
+}
+
+.imgH4 {
+	background-image: url("../../img/page1D/lesAutre2.png");
+	background-size: cover;
+}
+
+#imgH5 {
+	background-image: url("../../img/page1D/monté_chute.jpg");
+}
+
+#imgH6 {
+	background-image: url("../../img/page1D/aujourd'hui.jpg");
+}
+
+#img1Intro {
+	background-image: url("../../img/page2D/marchéCrypto.png");
+}
+
+#img2Intro {
+	background-image: url("../../img/page2D/imgBlock.png");
+}
+
+#img1R {
+	background-image: url("../../img/page3D/volatility.png");
+}
+
+#img2R {
+	background-image: url("../../img/page3D/arnaque.png");
+}
+
+#img3R {
+	background-image: url("../../img/page3D/judge.png");
+}
+
+#img4R {
+	background-image: url("../../img/page3D/piratage.png");
 }

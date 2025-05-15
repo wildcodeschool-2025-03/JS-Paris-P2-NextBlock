@@ -1,10 +1,9 @@
 import "./NavDebutant.css";
-import { useState } from "react";
-import { Link } from "react-router";
+import { Link, useOutletContext } from "react-router";
 import SwitchMode from "./SwitchMode";
 
 function NavDebutant() {
-	const [isBeginner, setIsBeginner] = useState(true);
+	const { isBeginner, setIsBeginner } = useOutletContext();
 	return (
 		<nav className="NavP">
 			<Link to="/">

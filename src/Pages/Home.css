@@ -4,9 +4,10 @@
 }
 
 .bodyHome {
-	background-image: url("../img/imgFondHome.png");
+	background-image: url("../img/imgFondHome.webp");
 	background-position: center;
 	background-size: cover;
+	height: 100vh;
 }
 
 .grand-titre {
@@ -54,4 +55,25 @@
 
 .link-home {
 	width: 100%;
+}
+
+.blockHome {
+	background: rgba(9, 7, 23, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+
+	border-radius: var(--radius);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.ndTitre {
+	font-family: var(--font-text);
+	display: flex;
+	gap: 10px;
+	color: white;
+	font-size: 30px;
 }
