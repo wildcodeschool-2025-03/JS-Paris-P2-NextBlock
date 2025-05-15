@@ -1,13 +1,14 @@
 import "./NavDebutant.css";
 import { Link, useOutletContext } from "react-router";
 import SwitchMode from "./SwitchMode";
+import logo from "../img/logocrypto.png";
 
 function NavDebutant() {
 	const { isBeginner, setIsBeginner } = useOutletContext();
 	return (
 		<nav className="NavP">
 			<Link to="/">
-				<img src="" alt="logo" />
+				<img className="logo" src={logo} alt="logo" />
 			</Link>
 
 			{isBeginner ? (

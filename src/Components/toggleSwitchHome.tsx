@@ -24,12 +24,14 @@ function ToggleSwitchHome() {
 			</p>
 			<div className="toggleHome">
 				<button
+					type="button"
 					className={isBeginner ? "active" : ""}
 					onClick={() => setIsBeginner(!isBeginner)}
 				>
 					Débutant
 				</button>
 				<button
+					type="button"
 					className={!isBeginner ? "active" : ""}
 					onClick={() => setIsBeginner(!isBeginner)}
 				>

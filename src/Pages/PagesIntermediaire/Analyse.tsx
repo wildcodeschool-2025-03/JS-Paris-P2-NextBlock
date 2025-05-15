@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import NavDebutant from "../../Components/NavDebutant";
 
 function Analyse() {
@@ -8,17 +9,21 @@ function Analyse() {
 				<h1 className="h1-text">L’analyse fondamentale et technique</h1>
 
 				<div className="text-intro">
-					<h2 className="h2-text">
+					<h2 className="h2-text-intro">
 						Pour comprendre l'analyse technique cliquez sur le bouton ci-joint
 						et accédez au cours complet.
 					</h2>
-					<button type="button">analyse technique</button>
-					<h2 className="h2-text">
+
+					<p className="btnChapitre"> Bouton Analyse technique</p>
+
+					<h2 className="h2-text-intro">
 						L’analyse fondamentale est une méthode utilisée pour évaluer la
 						valeur réelle d’un actif,
 					</h2>
 
-					<h3>Les 5 piliers de l'analyse fondamental dans la crypto</h3>
+					<p className="paragraphe-text-intro">
+						Les 5 piliers de l'analyse fondamental dans la crypto
+					</p>
 				</div>
 
 				<article className="article-text">
@@ -132,6 +137,12 @@ function Analyse() {
 					</div>
 					<div id="div-image" />
 				</article>
+
+				<div className="divBtnChapitre">
+					<Link className="btnChapitre" to="/Tokenomics">
+						Passez au chapitre suivant
+					</Link>
+				</div>
 			</section>
 		</main>
 	);
