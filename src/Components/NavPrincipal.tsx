@@ -2,11 +2,12 @@ import { Link } from "react-router";
 import MenuBurger from "./MenuBurger";
 import SwitchMode from "./SwitchMode";
 import "./NavPrincipal.css";
+import logo from "../img/logocrypto.png";
 
 const debutant = {
 	title: "Débutant",
 	list: [
-		{ title: "histoire", url: "/Histoire" },
+		{ title: "Histoire", url: "/Histoire" },
 		{ title: "Introduction", url: "/Introduction" },
 		{ title: "Les risques", url: "/Risques" },
 	],
@@ -25,8 +26,9 @@ function NavPrincipal() {
 	return (
 		<nav className="NavP">
 			<Link to="/">
-				<img src="" alt="logo" />
+				<img className="logo" src={logo} alt="logo" />
 			</Link>
+
 			<div className="BurgerDiv">
 				<MenuBurger pagesLevel={debutant} />
 				<MenuBurger pagesLevel={intermediaire} />
@@ -36,8 +38,8 @@ function NavPrincipal() {
 			</div>
 
 			<div>
-				<button type="button" className="BtnCrypto">
-					crypto-monaies
+				<button type="button" className="btnChapitre" id="btnCrypto">
+					Crypto-monnaies
 				</button>
 			</div>
 		</nav>

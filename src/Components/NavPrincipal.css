@@ -7,6 +7,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 8px 60px 0 60px;
 }
 
 .BurgerDiv {
@@ -23,15 +24,39 @@ nav {
 	justify-content: space-around;
 }
 
-.BtnCrypto {
-	/* height: 55px;
-	width: 250px; */
-	font-size: 20px;
-	padding: 0.7rem;
-	font-family: "Open Sans", sans-serif;
-	background: var(--gradiant);
-	border-radius: 10px;
+.logo {
+	height: 100px;
+	width: auto;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown-list {
+	position: absolute;
+}
+
+.dropdown-header {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	gap: 16px;
+}
+
+.dropdown-list {
+	display: flex;
+	margin-top: 8px;
+	flex-direction: column;
+	gap: 8px;
+	list-style-type: none;
+}
+
+.lienList {
+	color: var(--purple-color);
+}
+
+#btnCrypto {
+	width: 200px;
 }

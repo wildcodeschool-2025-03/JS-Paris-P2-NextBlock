@@ -1,8 +1,49 @@
 .bodyProfil {
-	background-image: url("../img/imgFondText.png");
-	background-position: center;
-	background-size: cover;
+	/* background: linear-gradient(135deg, #090717 0%, #1a0e2e 40%, #261141 70%, #6bade0 100%); */
+	/* background: linear-gradient(135deg, #090717 0%, #1a0e2e 40%, #261141 70%, #6bade0 100%);
+	color: var(--white-color); */
 	padding-bottom: 120px;
+
+	background: radial-gradient(
+			ellipse at top left,
+			rgba(107, 173, 224, 0.2) 0%,
+			rgba(26, 14, 46, 0.6) 40%,
+			rgba(9, 7, 23, 1) 80%
+		),
+		radial-gradient(
+			ellipse at bottom right,
+			rgba(184, 64, 240, 0.15) 0%,
+			rgba(26, 14, 46, 0.6) 40%,
+			rgba(9, 7, 23, 1) 80%
+		);
+	background-color: #090717;
+	background-blend-mode: screen;
+	color: var(--white-color);
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100vh;
+	background: linear-gradient(180deg, rgba(107, 173, 224, 0.3), transparent 70%);
+	filter: blur(60px);
+	pointer-events: none;
+}
+
+/* Faisceau violet */
+body::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	height: 100vh;
+	background: linear-gradient(0deg, rgba(184, 64, 240, 0.3), transparent 70%);
+	filter: blur(60px);
+	pointer-events: none;
 }
 
 .sectionProfilCrypto,
@@ -58,6 +99,7 @@
 	justify-content: space-between;
 	border-radius: var(--radius);
 	gap: 12px;
+	z-index: 100;
 }
 
 .DataProfilCrypto {
@@ -195,8 +237,20 @@
 	border: solid 1px var(--blue-color);
 }
 
+.btnSiteProfil {
+	transition: transform var(--transition-speed), background-color
+		var(--transition-speed);
+}
+
+.btnSiteProfil:hover {
+	transform: scale(var(--btn-scale));
+	background: var(--gradiant);
+	box-shadow: var(--shadow);
+	color: var(--dark-color);
+}
+
 .btnTradingView {
-	background-color: var(--blue-color);
+	background: var(--gradiant);
 	color: var(--dark-color);
 	width: 340px;
 }

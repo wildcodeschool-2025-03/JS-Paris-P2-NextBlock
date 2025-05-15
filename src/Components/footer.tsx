@@ -36,9 +36,9 @@ function Footer() {
 					Tockenomics
 				</Link>
 			</div>
-			<button type="button" className="BouttonCrypto">
-				Crypto-monnaies
-			</button>
+			<Link className="btnChapitre" id="btnCrypto" to="/CryptoMonnaies">
+				Crypto-Monnaies
+			</Link>
 		</footer>
 	);
 }

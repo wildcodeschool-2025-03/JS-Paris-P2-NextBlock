@@ -1,6 +1,7 @@
 .MAIN-CryptoCard {
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: 24px;
 	display: flex;
 	flex-direction: column;
 	gap: 21px;
@@ -10,15 +11,39 @@
 .Card-Filtre-SearchBar {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	gap: 24px;
-	margin-bottom: 60px;
 }
 
 .Filtre {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
+}
+
+.FiltersContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin-bottom: 40px;
+	margin-top: 12px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.FiltersContainer select {
+	background-color: var(--black-color);
+	color: var(--white-color);
+	border: 1px solid var(--blue-color);
+	border-radius: 12px;
+	padding: 8px;
+	font-family: var(--font-text);
+	font-size: 16px;
+}
+
+.PictoFiltre {
+	cursor: pointer;
 }
 
 .PictoSearch,
