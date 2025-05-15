@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import NavDebutant from "../../Components/NavDebutant";
 
 function Analyse() {
@@ -136,6 +137,12 @@ function Analyse() {
 					</div>
 					<div id="div-image" />
 				</article>
+
+				<div className="divBtnChapitre">
+					<Link className="btnChapitre" to="/Tokenomics">
+						Passez au chapitre suivant
+					</Link>
+				</div>
 			</section>
 		</main>
 	);

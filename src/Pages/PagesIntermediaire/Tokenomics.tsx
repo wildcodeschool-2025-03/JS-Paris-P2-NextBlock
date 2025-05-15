@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import NavDebutant from "../../Components/NavDebutant";
 
 function Tokenomics() {
@@ -163,6 +164,12 @@ function Tokenomics() {
 						</p>
 					</div>
 				</article>
+
+				<div className="divBtnChapitre">
+					<Link className="btnChapitre" to="/">
+						Retour à l'accueil
+					</Link>
+				</div>
 			</section>
 		</main>
 	);
