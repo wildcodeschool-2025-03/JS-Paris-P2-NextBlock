@@ -1,8 +1,3 @@
-.link {
-	color: #6bade0;
-	text-decoration: none;
-}
-
 Nav {
 	display: flex;
 	justify-content: space-around;
@@ -13,7 +8,6 @@ Nav {
 
 a {
 	text-decoration: none;
-	color: #6bade0;
 }
 
 nav {

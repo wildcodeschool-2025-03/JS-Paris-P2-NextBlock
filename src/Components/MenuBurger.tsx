@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
+import ArrowDown from "../img/Pictos/Picto-Arrow-Down.svg";
+import ArrowRight from "../img/Pictos/Picto-Arrow-Right.svg";
 
 const MenuBurger = ({ pagesLevel }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -11,13 +13,19 @@ const MenuBurger = ({ pagesLevel }) => {
 				onKeyUp={() => setIsOpen(!isOpen)}
 			>
 				<span>{pagesLevel.title}</span>
-				<span className="arrow">{isOpen ? "▾" : "▸"}</span>
+				{isOpen ? (
+					<img src={ArrowDown} alt="" />
+				) : (
+					<img src={ArrowRight} alt="" />
+				)}
 			</div>
 			{isOpen && (
 				<ul className="dropdown-list">
 					{pagesLevel.list.map((item) => (
 						<li key={item}>
-							<Link to={item.url}>{item.title}</Link>
+							<Link className="lienList" to={item.url}>
+								{item.title}
+							</Link>
 						</li>
 					))}
 				</ul>
