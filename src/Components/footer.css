@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-around;
 	background-color: var(--black-color);
+	font-family: var(--font-text);
 	height: 220px;
 	align-items: center;
 }
@@ -28,6 +29,8 @@
 	flex-direction: column;
 	gap: 0px;
 	padding-bottom: 5px;
+	color: white;
+	font-family: var(--font-grand-titre);
 }
 
 .TitreFooter {
@@ -44,6 +47,7 @@
 
 .CouleurLogo {
 	color: var(--purple-color);
+	font-family: var(--font-grand-titre);
 }
 
 .LinkFooter {

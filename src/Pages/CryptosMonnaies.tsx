@@ -50,13 +50,9 @@ function CryptoMonnaies() {
 		})
 		.filter((crypto) => {
 			if (selectedChange === "up")
-				return (
-					crypto.percentage_change?.includes("+")
-				);
+				return crypto.percentage_change?.includes("+");
 			if (selectedChange === "down")
-				return (
-					crypto.percentage_change?.includes("-")
-				);
+				return crypto.percentage_change?.includes("-");
 			return true;
 		})
 		.filter((crypto) => {
@@ -74,7 +70,8 @@ function CryptoMonnaies() {
 
 				<article className="Card-Filtre-SearchBar">
 					<div className="Filtre">
-						<img onKeyUp={toggleFilters}
+						<img
+							onKeyUp={toggleFilters}
 							className="PictoFiltre"
 							src={PictoFiltre}
 							alt="Picto Filtre"

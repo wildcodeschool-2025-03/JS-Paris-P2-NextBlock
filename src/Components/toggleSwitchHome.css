@@ -1,0 +1,53 @@
+.switch-containerHome {
+	background: #0d0b21;
+	color: #fff;
+	padding: 24px 48px 24px 48px;
+	border-radius: 12px;
+	font-family: sans-serif;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	gap: 24px;
+	border-radius: var(--radius);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	display: flex;
+	flex-direction: column;
+}
+
+.h2Toggle {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.highlight {
+	color: #b840f0;
+}
+
+.toggleHome {
+	display: flex;
+	border: 1px solid #b840f0;
+	border-radius: 8px;
+	overflow: hidden;
+	padding: 6px;
+}
+
+.toggleHome button {
+	padding: 0.7rem 1.5rem;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border-radius: 8px;
+	width: 50%;
+	font-family: var(--font-text);
+	color: var(--dark-color);
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.toggleHome button.active {
+	background: linear-gradient(to right, #6bade0, #b840f0);
+	color: black;
+	font-weight: bold;
+}

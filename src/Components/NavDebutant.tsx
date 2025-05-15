@@ -1,11 +1,10 @@
 import "./NavDebutant.css";
-import { useState } from "react";
-import { Link } from "react-router";
+import { Link, useOutletContext } from "react-router";
 import logo from "../img/logocrypto.png";
 import SwitchMode from "./SwitchMode";
 
 function NavDebutant() {
-	const [isBeginner, setIsBeginner] = useState(true);
+	const { isBeginner, setIsBeginner } = useOutletContext();
 	return (
 		<nav className="NavP">
 			<Link to="/">
@@ -44,11 +43,10 @@ function NavDebutant() {
 				</article>
 			)}
 
-			<div className="CryptoNav">
-				<Link className="BtnCrypto" to="/CryptoMonnaies">
-					CryptoMonnaies
-				</Link>
-			</div>
+			<Link className="btnChapitre" id="btnCrypto" to="/CryptoMonnaies">
+				Crypto-Monnaies
+			</Link>
+
 			<SwitchMode isBeginner={isBeginner} setIsBeginner={setIsBeginner} />
 		</nav>
 	);

@@ -35,3 +35,7 @@ nav {
 	align-items: center;
 	text-decoration: none;
 }
+
+#btnCrypto {
+	width: 200px;
+}

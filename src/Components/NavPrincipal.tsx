@@ -38,8 +38,8 @@ function NavPrincipal() {
 			</div>
 
 			<div>
-				<button type="button" className="BtnCrypto">
-					crypto-monaies
+				<button type="button" className="btnChapitre" id="btnCrypto">
+					Crypto-monnaies
 				</button>
 			</div>
 		</nav>

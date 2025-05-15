@@ -30,11 +30,11 @@ function Histoire() {
 							</p>
 						</div>
 
-						<div className="div-image" />
+						<div className="div-image" id="imgH1" />
 					</article>
 
 					<article className="article-text">
-						<div className="div-image" />
+						<div className="div-image" id="imgH2" />
 
 						<div className="div-text">
 							<h2 className="h2-text">
@@ -76,7 +76,7 @@ function Histoire() {
 							</p>
 						</div>
 
-						<div className="div-image" />
+						<div className="div-image" id="imgH3" />
 					</article>
 
 					<article id="article-text">
@@ -101,11 +101,11 @@ function Histoire() {
 							</p>
 						</div>
 
-						<div id="div-image" />
+						<div id="div-image" className="imgH4" />
 					</article>
 
 					<article className="article-text">
-						<div className="div-image" />
+						<div className="div-image" id="imgH5" />
 
 						<div className="div-text">
 							<h2 className="h2-text">Montée, chute, renaissance</h2>
@@ -139,7 +139,7 @@ function Histoire() {
 							</p>
 						</div>
 
-						<div className="div-image" />
+						<div className="div-image" id="imgH6" />
 					</article>
 
 					<div className="divBtnChapitre">

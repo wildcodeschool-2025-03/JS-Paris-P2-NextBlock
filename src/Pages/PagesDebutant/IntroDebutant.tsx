@@ -27,7 +27,7 @@ function IntroDebutant() {
 							</p>
 						</div>
 
-						<div className="div-image" />
+						<div className="div-image" id="img1Intro" />
 					</article>
 
 					<article id="article-text">
@@ -121,7 +121,7 @@ function IntroDebutant() {
 							</p>
 						</div>
 
-						<div className="div-image" />
+						<div className="div-image" id="img2Intro" />
 					</article>
 
 					<div className="divBtnChapitre">

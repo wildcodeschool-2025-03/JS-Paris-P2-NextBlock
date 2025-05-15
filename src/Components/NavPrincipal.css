@@ -24,19 +24,6 @@ nav {
 	justify-content: space-around;
 }
 
-.BtnCrypto {
-	/* height: 55px;
-	width: 250px; */
-	font-size: 20px;
-	padding: 0.7rem;
-	font-family: "Open Sans", sans-serif;
-	background: var(--gradiant);
-	border-radius: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .logo {
 	height: 100px;
 	width: auto;
@@ -68,4 +55,8 @@ nav {
 
 .lienList {
 	color: var(--purple-color);
+}
+
+#btnCrypto {
+	width: 200px;
 }

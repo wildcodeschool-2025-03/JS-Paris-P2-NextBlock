@@ -41,7 +41,7 @@ function Risques() {
 							</p>
 						</div>
 
-						<div className="div-image" />
+						<div className="div-image" id="img1R" />
 						{/* <img src={imgFondHome} alt="" /> */}
 					</article>
 
@@ -79,7 +79,7 @@ function Risques() {
 					</article>
 
 					<article className="article-text">
-						<div className="div-image" />
+						<div className="div-image" id="img2R" />
 
 						<div className="div-text">
 							<h2 className="h2-text">Arnaques et fraudes</h2>
@@ -111,11 +111,11 @@ function Risques() {
 							</p>
 						</div>
 
-						<div className="div-image" />
+						<div className="div-image" id="img3R" />
 					</article>
 
 					<article className="article-text">
-						<div className="div-image" />
+						<div className="div-image" id="img4R" />
 
 						<div className="div-text">
 							<h2 className="h2-text">Bugs techniques ou piratages</h2>
