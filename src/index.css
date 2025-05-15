@@ -14,4 +14,7 @@
 	--gap: 24px;
 	--big-gap: 52px;
 	--gradiant: linear-gradient(45deg, #b840f0, #6bade0);
+	--btn-scale: 1.05;
+	--transition-speed: 0.4s;
+	--shadow: 0px 0px 20px #6bade0;
 }
